@@ -175,7 +175,7 @@ line-height: 21px;
   height: 36px;
   border: none;
   outline: 2px solid transparent;
-  outline-offset: 2px;
+  outline-offset: -1px;
   transition: outline 0.3s ease;
   padding: 0;
   background: transparent;

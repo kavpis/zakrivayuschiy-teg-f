@@ -17,7 +17,7 @@
   --stroke-color: var(--text-color);
   --label-stroke-color: var(--page-background);
   --like-sparks-color: #f00;
-
+  --like-contour-color: #000;
 }
 
 :root.theme-dark {
@@ -33,6 +33,7 @@
   --stroke-color: var(--text-color);
   --label-stroke-color: var(--page-background);
   --like-sparks-color: #f00;
+  --like-contour-color: rgb(0, 204, 20);
 }
 
 @media (prefers-color-scheme: light) {
@@ -49,6 +50,7 @@
     --stroke-color: var(--text-color);
     --label-stroke-color: var(--page-background);
     --like-sparks-color: #f00;
+    --like-contour-color: #000;
   }
 }
 
@@ -66,5 +68,6 @@
     --stroke-color: var(--text-color);
     --label-stroke-color: var(--page-background);
     --like-sparks-color: #f00;
+    --like-contour-color: rgb(0, 204, 20);
   }
 }
